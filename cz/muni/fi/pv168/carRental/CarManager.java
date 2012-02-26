@@ -7,13 +7,13 @@ import java.util.List;
  */
 public interface CarManager
 {
-    Car createCar(Car car);
+    Car create(Car car);
 
     List<Car> findAll();
 
-    Car findCarById(long id);
+    Car findById(long id);
 
-    void updateCar(Car car);
+    void update(Car car);
 
-    void deleteCar(Car car);
+    void delete(Car car);
 }
