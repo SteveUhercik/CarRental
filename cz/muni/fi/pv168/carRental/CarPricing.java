@@ -6,7 +6,7 @@ package cz.muni.fi.pv168.carRental;
 public class CarPricing
 {
     private long id;
-    private String decription;
+    private String description;
     private long pricePerHour;
     private long pricePerDay;
     private long pricePerWeek;
