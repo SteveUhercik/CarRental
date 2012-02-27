@@ -7,8 +7,7 @@ public class CarPricing
 {
     private long id;
     private String description;
-    private long pricePerHour;
-    private long pricePerDay;
-    private long pricePerWeek;
-    private long lateReturnFinePerHour;
+    private long priceBasic;
+    private long priceOverDay;
+    private long priceOverWeek;
 }
