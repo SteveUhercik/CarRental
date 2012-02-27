@@ -7,9 +7,15 @@ import java.util.List;
  */
 public interface RentalManager
 {
-    Rental create(Rental rental);
+    Rental add(Rental rental);
 
     List<Rental> findAll();
+
+    /**
+     * Find all active rentals.
+     * @return list of all active rentals.
+     */
+    List<Rental> findAllActive();
 
     Rental findById(long id);
 

@@ -7,7 +7,7 @@ import java.util.List;
  */
 public interface CarPricingManager
 {
-    CarPricing create(CarPricing carPricing);
+    CarPricing add(CarPricing carPricing);
 
     List<CarPricing> findAll();
 

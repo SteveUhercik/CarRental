@@ -7,9 +7,15 @@ import java.util.List;
  */
 public interface CarManager
 {
-    Car create(Car car);
+    Car add(Car car);
 
     List<Car> findAll();
+
+    /**
+     * Find all available cars.
+     * @return list of all available cars.
+     */
+    List<Car> findAvailable();
 
     Car findById(long id);
 

@@ -7,7 +7,7 @@ import java.util.List;
  */
 public interface CustomerManager
 {
-    Customer create(Customer customer);
+    Customer add(Customer customer);
 
     List<Customer> findAll();
 
