@@ -8,10 +8,12 @@ import java.util.Calendar;
 public class Rental
 {
     private Car car;
+
     private Customer customer;
+
     private Calendar rentalFrom;
+
     private Calendar rentalTo;
+
     private Calendar returned;
-    private long price;
-    private long finalPrice;
 }

@@ -6,7 +6,10 @@ package cz.muni.fi.pv168.carRental;
 public class Car
 {
     private long id;
-    private String registrationPlate;
-    private String description;
+
     private CarPricing pricing;
+
+    private String registrationPlate;
+
+    private String description;
 }
