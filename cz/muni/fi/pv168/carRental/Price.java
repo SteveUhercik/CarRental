@@ -7,18 +7,22 @@ public class Price
 {
     private long value;
 
+    private boolean nonNegative;
+
     public long getValue()
     {
-        return value;
+        return (nonNegative ? 1 : -1) * value;
     }
 
     public void setValue(long value)
     {
-        this.value = value;
+        this.value = Math.abs(value);
+
+        this.nonNegative = value >= 0;
     }
 
     public String toString()
     {
-        return (value / 100) + "." + (value % 100) + "\u20AC"; // EUR sign
+        return (nonNegative ? "" : "-") + (value / 100) + "." + (value % 100) + "\u20AC"; // EUR sign
     }
 }
