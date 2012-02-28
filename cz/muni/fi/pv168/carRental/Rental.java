@@ -16,4 +16,6 @@ public class Rental
     private Calendar rentalTo;
 
     private Calendar returned;
+
+    private Price initialPayment; // Checkout price is not stored
 }
