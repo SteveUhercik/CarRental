@@ -5,6 +5,9 @@ package cz.muni.fi.pv168.carRental;
  */
 public class Price
 {
+
+    //meaningless comment
+
     private long value;
 
     private boolean nonNegative;
